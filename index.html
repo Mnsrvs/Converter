@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="converter">
+      <div>
+        <h1>Currency Converter</h1>
+      </div>
+      <div class="php-to-foreign">
+        <form action="" method="">
+          <label for="php">Philippine Peso</label>
+          <input type="number" id="php" name="php" placeholder="Enter Value">
+          <p>Foreign Currency:</p>
+          <div class="span" id="foreign">
+            0
+          </div>
+        </form>
+        <div class="btn">
+          <button onclick="usDollar()">US Dollar</button>
+          <button onclick="japanYen()">Japan Yen</button>
+          <button onclick="koreanWon()">Korean Won</button>
+        </div>
+      </div>
+      <div class="foreign-to-php">
+        <form action="" method="">
+          <label for="foreign-currency">Foreign Currency</label>
+          <input type="number" id="foreign-currency" name="php" placeholder="Enter Value">
+          <p>Philippine Peso:</p>
+          <div class="span" id="peso">
+            0
+          </div>
+        </form>
+        <div class="btn">
+          <button onclick="dollarToPhp()">US Dollar</button>
+          <button onclick="yenToPhp()">Japan Yen</button>
+          <button onclick="wonToPhp()">Korean Won</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
